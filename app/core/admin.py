@@ -43,3 +43,11 @@ class UserAdmin(BaseUserAdmin):
 
 
 admin.site.register(models.User, UserAdmin)
+
+
+# from core.views import admin_site
+
+# class MyModelAdmin(ModelAdmin):  
+# ...
+
+# admin_site.register(MyModel, MyModelAdmin)
